@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexboxes</title>
     <style>
+        .card-container{
+            display: flex;
+            background-color: bisque;
+            flex-direction: row;
+            justify-content: center;
+        }
         .card{
             width: 150px;
             border: 4px double black;
-            border-radius: 10px 10px 0px 0px ;
+            border-radius: 10px;
+            margin: 5px;
+            background-color: white;
         }
 
         .card-img{
             width: 150px;
             height: 150px;
-            border-radius: 10px;
+            border-radius: 10px 10px 0 0;
         }
 
         .card-title{
@@ -48,7 +56,7 @@
 
                             <div class="card-container">
 
-                                <div class="card">
+                        <div class="card">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qAYrs7_2Cmdpw-mmFIZ4gcV5aBJVHkIc-w&s" class="card-img"/>
                                     <h2 class="card-title">Jaggu</h2>
                                     </div>
